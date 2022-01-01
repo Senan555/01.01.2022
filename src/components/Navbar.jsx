@@ -1,6 +1,6 @@
 import React from 'react'
 import logo from '../logo.png'
-function Navbar() {
+const Navbar =() => {
     return (
         <nav className="navbar navbar-expand-lg navbar-light bg-dark">
             <a className="navbar-brand" href="#"><img src={logo} className='logo' alt="" /></a>
