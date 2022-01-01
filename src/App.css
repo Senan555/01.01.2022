@@ -100,3 +100,36 @@ margin-bottom: 25px;
     color: var(--primary-white);
     transition: .4s ease-in-out;
 }
+
+/*About Me*/
+
+.photo-wrap{
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.profile-img{
+    width: 16rem;
+    height: 16rem;
+    border-radius: 50%;
+    border: 1px solid var(--primary-orange);
+    padding: .3rem;
+    object-fit: cover;
+}
+
+.about-heading{
+    color: var(--primary-orange);
+    text-transform: uppercase;
+ 
+}
+@media(max-widht:468px){
+    .about-heading{
+        text-align: center;
+    }
+}
+
+.p-text{
+    text-align: justify;
+    margin-bottom: 20px;
+}
